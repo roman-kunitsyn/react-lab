@@ -1,0 +1,32 @@
+.page {
+  border: 1px solid rgb(255, 202, 202);
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.component {
+  border: 1px solid rgb(221, 221, 221);
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+code {
+  font-size: 10px;
+  color: gray;
+  position: relative;
+  top: -9px;
+  left: -3px
+}
+
+button, input {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 5px;
+}
