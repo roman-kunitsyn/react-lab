@@ -11,9 +11,13 @@ export const ListFilter = ({
         <div>
           <span>ids:</span> <input type="" name="ids" />
           <span>name:</span> <input type="" name="name" />
-          <span>description:</span> <input type="" name="description" />
-          <span>createdAtStart:</span> <input type="date" name="createdAtStart" />
-          <span>createdAtEnd:</span> <input type="date" name="createdAtEnd" />
+          <span>description:</span>{' '}
+          <input type="" name="description" />
+          <div>
+            <span>createdAt:</span> <span>Start </span>{' '}
+            <input type="date" name="createdAtStart" />
+            <span>End</span> <input type="date" name="createdAtEnd" />
+          </div>
         </div>
         <div>
           <input type="submit" value="Submit" />

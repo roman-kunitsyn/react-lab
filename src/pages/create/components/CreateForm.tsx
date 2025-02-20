@@ -3,7 +3,7 @@ export const CreateForm = () => {
     <div className="component">
       <code>CreateForm</code>
       <form>
-        <input type="image" src="/public/favicon.svg"/>
+        <input type="image" src="/favicon.svg"/>
         <input type="color" />
         
         <input type="range" />
